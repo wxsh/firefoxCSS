@@ -1,0 +1,21 @@
+/* Example file */
+
+/* @import url(content/limit_css_data_leak.css); */ /* Could induce site problems */
+@import url(content/transparent_reader_toolbar.css);
+@import url(content/about_page_toolbars.css);
+@import url(content/dark_settings_pages.css);
+@import url(content/two_column_addons.css);
+@import url(content/css_scrollbar_width_color.css);
+@import url(content/newtab_background_color.css);
+
+
+
+
+
+@import url('addons/nanoDefender.css');
+
+
+
+/* Disable outlines on focused elements (links/buttons) */
+:focus { outline: none; }
+::-moz-focus-inner { border: 0; }
